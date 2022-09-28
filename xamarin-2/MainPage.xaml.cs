@@ -14,5 +14,11 @@ namespace xamarin_2
         {
             InitializeComponent();
         }
+
+        void Button_Clicked(System.Object sender, System.EventArgs e)
+        {
+            string name = entryName.Text;
+            labelName.Text = "Witaj " + name;
+        }
     }
 }
